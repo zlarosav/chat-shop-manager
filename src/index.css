@@ -1,0 +1,18 @@
+:root {
+  --background-color: #212121;
+  --text-color: white;
+  --table-header-color: #37474f;
+  --table-row-even-color: #455a64;
+  --table-row-odd-color: #546e7a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Onest', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
