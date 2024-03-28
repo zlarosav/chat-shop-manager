@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "axios"
 
 export default function parseAi(message) {
   const url_api = "https://api.ai21.com/studio/v1/j2-ultra/chat"

@@ -1,22 +1,23 @@
 import "../css/ChatManager.css"
 import { useState } from "react"
-import parseAi from "../scripts/parseAi"
+import translatorAi from "../scripts/translatorAi"
 
-export default function ChatManager({ nowProducts, setProducts }) {
+export default function ChatManager({ shopProducts, setShopProducts, listProducts, setListProducts }) {
   const [ message, setMessage ] = useState("")
 
   const addProduct = async (msg) => {
-    const newProducts = [...nowProducts]
+    const newProducts = [...listProducts]
     try {
-      const parseAiProduct = await parseAi(msg)
+      const parseAiProduct = await translatorAi(msg, shopProducts)
 
-      const editRes = parseAiProduct.split("},")
+      const editRes = parseAiProduct.replace(/\n/g, "").split("},")
       editRes.forEach((obj, index) => {
         if (index < editRes.length - 1) obj += "}"
-        newProducts.push(JSON.parse(obj.trim()))
+        const objPush = JSON.parse(obj.trim())
+        newProducts.push(objPush)
       })
 
-      setProducts(newProducts)
+      setListProducts(newProducts)
     } catch (error) {
       console.error("Error:", error)
     }

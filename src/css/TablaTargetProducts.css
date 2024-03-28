@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table.TablaTargetProducts {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table.TablaTargetProducts thead th {
+  background-color: #343A40;
+  color: white;
+  padding: 15px 10px;
+}
+
+table.TablaTargetProducts tbody th,
+table.TablaTargetProducts tbody td {
+  padding: 15px 10px;
+  border-bottom: 1px solid var(--background-color);
+}
+
+table.TablaTargetProducts tbody tr {
+  background-color: #343A40;
+}
+
+table.TablaTargetProducts tbody tr:hover {
+  background-color: #495158;
+  transition: background-color 0.2s ease;
+}

@@ -1,0 +1,68 @@
+{
+  "electronica": [
+    {
+      "name": "iPhone 13 Pro",
+      "price": 1099.99,
+      "stock": 50
+    },
+    {
+      "name": "Samsung Galaxy S22 Ultra",
+      "price": 1199.99,
+      "stock": 30
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "price": 499.99,
+      "stock": 20
+    },
+    {
+      "name": "Apple Watch Series 7",
+      "price": 399.99,
+      "stock": 40
+    }
+  ],
+  "ropa": [
+    {
+      "name": "Nike Air Max 270",
+      "price": 129.99,
+      "stock": 100
+    },
+    {
+      "name": "Adidas Superstar",
+      "price": 89.99,
+      "stock": 80
+    },
+    {
+      "name": "Levi's 501 Jeans",
+      "price": 59.99,
+      "stock": 120
+    },
+    {
+      "name": "Ralph Lauren Polo Shirt",
+      "price": 49.99,
+      "stock": 150
+    }
+  ],
+  "alimentos": [
+    {
+      "name": "Coca-Cola",
+      "price": 1.99,
+      "stock": 200
+    },
+    {
+      "name": "Kellogg's Corn Flakes",
+      "price": 3.49,
+      "stock": 150
+    },
+    {
+      "name": "Nutella",
+      "price": 4.99,
+      "stock": 100
+    },
+    {
+      "name": "Ben & Jerry's Ice Cream",
+      "price": 5.99,
+      "stock": 80
+    }
+  ]
+}

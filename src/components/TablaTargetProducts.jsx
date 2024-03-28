@@ -1,8 +1,8 @@
-import "../css/TablaTotalProducts.css"
+import "../css/TablaTargetProducts.css"
 
-export default function TablaTotalProducts({ children }) {
+export default function TablaTargetProducts({ children }) {
   return (
-    <table className="TablaTotalProducts">
+    <table className="TablaTargetProducts">
       <thead>
         <tr>
           <th>Cantidad</th>
